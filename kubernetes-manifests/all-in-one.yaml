@@ -45,7 +45,7 @@ kind: Deployment
 metadata:
   name: azure-vote-front
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: azure-vote-front
